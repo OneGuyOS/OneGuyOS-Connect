@@ -1,0 +1,194 @@
+/* OneGuyOS Connect - App Styling */
+
+.oneguy-card {
+  background-color: @card_bg_color;
+  border: 1px solid @borders;
+  border-radius: 0px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.oneguy-header {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: @card_fg_color;
+}
+
+.oneguy-subtitle {
+  font-size: 0.85rem;
+  color: @text_muted;
+}
+
+.oneguy-battery-badge {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 0px;
+  background-color: alpha(@accent_bg_color, 0.15);
+  color: @accent_color;
+  border: 1px solid @accent_color;
+}
+
+.oneguy-action-tile {
+  border-radius: 0px;
+  min-height: 72px;
+  min-width: 130px;
+  font-weight: 600;
+  padding: 12px;
+  border: 1px solid @borders;
+  background-color: @card_bg_color;
+  transition: all 120ms ease-in-out;
+}
+
+.oneguy-action-tile:hover {
+  border-color: @accent_color;
+  background-color: alpha(@accent_bg_color, 0.08);
+}
+
+.connected-device-card {
+  margin-bottom: 0;
+}
+
+.oneguy-phone-panel {
+  margin-bottom: 4px;
+}
+
+.oneguy-mirror-frame {
+  background-color: @window_bg_color;
+  color: @window_fg_color;
+  border: 1px solid @borders;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.oneguy-device-pull {
+  background-color: @card_bg_color;
+  border: 1px solid @borders;
+  border-top: none;
+  border-radius: 0;
+  min-height: 28px;
+  padding: 2px 8px;
+  margin-bottom: 0;
+}
+
+.oneguy-device-pull:hover {
+  color: @accent_color;
+  background-color: alpha(@accent_bg_color, 0.08);
+}
+
+.oneguy-device-shade {
+  background-color: @card_bg_color;
+  border: 1px solid @borders;
+  border-top: none;
+  border-radius: 0;
+  padding: 8px;
+  margin-bottom: 4px;
+}
+
+.oneguy-notification-row {
+  background-color: transparent;
+  color: @view_fg_color;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.oneguy-notification-preview {
+  background-color: @card_bg_color;
+  border-bottom: 1px solid @borders;
+  padding: 9px 12px;
+}
+
+.oneguy-notification-preview-last {
+  border-bottom: none;
+}
+
+.oneguy-notification-stack {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  margin-top: 8px;
+}
+
+.oneguy-notification-toggle {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid @borders;
+  min-height: 28px;
+  padding: 2px 8px;
+}
+
+.oneguy-notification-toggle:hover {
+  color: @accent_color;
+  background-color: alpha(@accent_bg_color, 0.08);
+}
+
+.oneguy-notification-expanded {
+  background-color: transparent;
+  padding: 8px 0 0;
+}
+
+.oneguy-ribbon-action {
+  min-width: 48px;
+  min-height: 50px;
+  border-radius: 0;
+  border: 1px solid transparent;
+  padding: 5px 4px;
+  background-color: transparent;
+}
+
+.oneguy-ribbon-action:hover {
+  border-color: @accent_color;
+  background-color: alpha(@accent_bg_color, 0.08);
+}
+
+.oneguy-ribbon-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.tile-icon {
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+}
+
+.tile-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.oneguy-primary-btn {
+  background-color: @accent_bg_color;
+  color: @accent_fg_color;
+  border-radius: 0px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: none;
+}
+
+.oneguy-primary-btn:hover {
+  background-color: shade(@accent_bg_color, 1.08);
+}
+
+.oneguy-secondary-btn {
+  border-radius: 0px;
+  border: 1px solid @borders;
+  background-color: @card_bg_color;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+.oneguy-destructive-btn {
+  background-color: @destructive_bg_color;
+  color: @destructive_fg_color;
+  border-radius: 0px;
+  font-weight: 600;
+  border: none;
+}
+
+.status-bar-label {
+  font-size: 0.8rem;
+  color: @text_muted;
+  padding: 4px 8px;
+}

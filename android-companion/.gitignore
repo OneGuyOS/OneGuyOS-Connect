@@ -1,0 +1,6 @@
+.gradle/
+.idea/
+app/build/
+desktop/.vendor/
+desktop/.venv/
+local.properties

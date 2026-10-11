@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=OneGuyOS Connect
+Comment=Connect your phone and desktop
+Exec=/usr/bin/oneguyos-connect
+Icon=phone
+Terminal=false
+Categories=Utility;Network;
+StartupNotify=true
